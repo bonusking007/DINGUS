@@ -1,6 +1,5 @@
 wait(5)
 
-if placeId == 56631392494657699244 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Bonus X hub (Dingus)", "DarkTheme")
 
@@ -144,4 +143,3 @@ local infSection = Tab:NewSection("infiniteyield")
 infSection:NewButton("Click", "infiniteyield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-end
